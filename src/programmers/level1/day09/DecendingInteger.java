@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day09;
 
 public class DecendingInteger {
     public static void main(String[] args) {

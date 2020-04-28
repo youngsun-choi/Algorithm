@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day06;
 
 public class SuBak {
     public static void main(String[] args) {

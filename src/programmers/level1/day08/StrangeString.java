@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day08;
 
 public class StrangeString {
     public static void main(String[] args) {

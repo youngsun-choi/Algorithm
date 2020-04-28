@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day04;
 
 public class SumNumber {
     public static void main(String[] args) {

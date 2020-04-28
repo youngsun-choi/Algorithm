@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day03;
 
 public class GetMiddleText {
 	public static void main(String[] args) {

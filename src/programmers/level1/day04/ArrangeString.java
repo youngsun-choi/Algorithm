@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day04;
 
 import java.util.Arrays;
 import java.util.Comparator;

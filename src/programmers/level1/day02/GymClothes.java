@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day02;
 
 public class GymClothes {
 	public static void main(String[] args) {

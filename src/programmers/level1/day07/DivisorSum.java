@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day07;
 
 public class DivisorSum {
     public static void main(String[] args) {

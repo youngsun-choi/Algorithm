@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day05;
 
 public class StringBasic {
     public static void main(String[] args) {

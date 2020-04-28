@@ -1,4 +1,4 @@
-package programmers.level1;
+package programmers.level1.day02;
 
 import java.time.LocalDate;
 import java.time.format.TextStyle;
