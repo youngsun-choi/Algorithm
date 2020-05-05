@@ -8,9 +8,9 @@ public class Printer {
         int location = 0; //2 0
 
         Printer printer = new Printer();
-        System.out.println(printer.print(priorities, location));
+        //System.out.println(printer.print(priorities, location));
         System.out.println(printer.print2(priorities, location));
-        System.out.println(printer.print3(priorities, location));
+        //System.out.println(printer.print3(priorities, location));
     }
     public int print(int[] priorities, int location) {
         int answer = 1;
@@ -20,15 +20,19 @@ public class Printer {
         for(int data:priorities) {
             pQueue.add(data);
         }
+        System.out.println(Arrays.toString(priorities));
+        System.out.println(pQueue);
 
         while (!pQueue.isEmpty()) {
             for(int i=0; i<priorities.length; i++) {
+                System.out.println(priorities[i]+","+pQueue.peek());
                 if(priorities[i] == (int)pQueue.peek()) {
                     System.out.println(i+", "+location);
                     if(i == location) {
                         return answer;
                     }
                     pQueue.poll();
+                    System.out.println(pQueue);
                     answer++;
                 }
             }
@@ -44,6 +48,7 @@ public class Printer {
         for(int data:priorities) {
             queue.add(data);
         }
+
         Arrays.sort(priorities);
         int length = priorities.length-1;
 
